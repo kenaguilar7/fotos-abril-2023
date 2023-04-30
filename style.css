@@ -1,0 +1,95 @@
+body {
+    background-color: #f2f2f2; /* Set the background color for the entire page */
+    font-family: 'Josefin Slab', serif;
+}
+img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+}
+
+figure {
+    display: inline-block;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: center;
+}
+
+figcaption p {
+    margin: 0 auto;
+    width: 60%;
+    text-align: justify;
+}
+
+		.hero {
+			background-image: url('hero-image.jpg');
+			background-size: cover;
+			background-position: center center;
+			height: 500px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			color: black;
+			text-align: center;
+			font-size: 2em;
+			padding: 50px;
+			box-sizing: border-box;
+		}
+		
+		.hero h1 {
+			font-size: 3em;
+			margin-bottom: 0;
+		}
+		
+		.hero p {
+			font-size: 1.5em;
+			margin-top: 0;
+			margin-bottom: 30px;
+		}
+		
+		.hero button {
+			background-color: white;
+			color: black;
+			font-size: 1.2em;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+
+/* .discurso {
+    width: 80%;
+} */
